@@ -101,7 +101,6 @@
     text-shadow: 2px 2px 2px rgb(97, 192, 159);
 }
 .card.doctor{
-    margin-left: 30px;
     border: 2px solid rgb(97, 192, 159) ;
     border-radius: 2px;
 }
