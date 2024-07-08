@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:inherit;
+}
+#nav-bar{
+    box-shadow: 5px 5px 20px rgb(174, 168, 168);
+}
+.hb-icon{
+    margin-right: 1rem;
+    margin-left: 3rem;
+    color: rgb(18, 194, 133);
+}
+#home{
+    box-shadow: 2px 2px 5px gray;
+}
+.home-img{
+    width: 100%;
+    height: 100%;
+}
+.h3-item{
+    font-size: 3em;
+    font-weight: bolder;
+    font-style: inherit;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.604);
+    text-transform: capitalize;
+}
+.h2-item{
+    font-size: 3em;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.604);
+    text-align: center;
+}
+.p-item{
+    font-size: 22px;
+    color: gray;
+    text-transform: capitalize;
+}
+.appoint{
+    text-align: center;
+    border: 2px solid rgb(97, 192, 159);
+    border-radius: 5px;
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(97, 192, 159);
+    padding: 4px 6px;
+    background: white;
+    box-shadow: 2px 2px 5px rgb(97, 192, 159);
+}
+.icon{
+    background-color: rgb(97, 192, 159) ;
+    border: 2px solid  rgb(97, 192, 159);
+    border-radius: 5px;
+    padding: 2px;
+    padding-left: 3px;
+    margin-left: 3px;
+    color: white;
+}
+.sp-item{
+    color:rgb(42, 151, 113) ;
+    text-shadow:2px 2px 5px rgb(97, 192, 159) ;
+}
+.service{
+    text-align: left;
+    padding: 4px;
+    border-radius: 5px;
+    border: 2px solid rgb(97, 192, 159);
+    box-shadow: 2px 2px 5px rgb(97, 192, 159);
+}
+.service i {
+    font-size: 30px;
+    color: rgb(97, 192, 159);
+    text-shadow: 2px 2px 2px rgb(97, 192, 159);
+}
+.h3-ser{
+    font-size: 2rem;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.statis{
+    padding-left: 10rem;
+    width: 100%;
+}
+@media(max-width:600px){
+    .statis{
+        padding: 0;
+        margin: 0;
+    }
+}
+.stat {
+    text-align: center;
+    border-radius: 5px;
+    border: 2px solid rgb(97, 192, 159);
+    box-shadow: 2px 2px 5px rgb(97, 192, 159);
+}
+.stat i {
+    font-size: 30px;
+    color: rgb(97, 192, 159);
+    text-shadow: 2px 2px 2px rgb(97, 192, 159);
+}
+.card.doctor{
+    margin-left: 30px;
+    border: 2px solid rgb(97, 192, 159) ;
+    border-radius: 2px;
+}
+.doc{
+    text-align: center;
+}
+.card.doctor .card-img-top{
+    width: 70%;
+    border: 2px solid rgb(97, 192, 159) ;
+    border-radius: 5px;
+}
+.h3-doc{
+    font-size: 1.5rem;
+    text-shadow:2px 2px 5px rgba(0, 0, 0, 0.649);
+    font-weight: bolder;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sp-doc{
+    font-size: 1rem;
+    color: rgb(97, 192, 159);
+    font-weight: bolder;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.fb {
+    border: 2px solid rgb(97, 192, 159);
+    color: rgb(97, 192, 159);
+    padding: 4px 6px;
+    text-decoration: none;
+    border-radius: 2px;
+}
+.h4-item{
+    text-transform: capitalize;
+    font-size: 2rem;
+}
+.h2-doc{
+    text-transform: capitalize;
+    font-size: 2.5rem;
+    text-shadow:2px 2px 5px rgba(0, 0, 0, 0.649);
+    font-weight: bolder;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.book{
+    border: 2px solid rgb(97, 192, 159);
+    border-radius: 2px;
+    box-shadow: 2px 2px 3px 3px rgb(97, 192, 159) ;
+    height: 50vh;
+    width: 50%;
+}
+.input-group{
+    border: 2px solid rgb(97, 192, 159);
+    border-radius: 3px;
+}
+.primary{
+    border: 2px solid rgb(97, 192, 159);
+    box-shadow: 2px 2px 3px 3px rgb(97, 192, 159) ;
+    border-radius: 5px;
+    background-color: white;
+    padding: 10px 30px;
+}
+.card-top{
+    background-color:rgb(97, 192, 159) ;
+}
+.h1-doc{
+    color: white;
+    font-size: 1.5rem;
+    text-shadow:2px 2px 5px white;
+    font-weight: bolder;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.stars{
+    color: white;
+    font-size: 1rem;
+    font-weight: bolder;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.card-top .h3-doc .stars{
+    color: white;
+}
+.card.review .card-img-top{
+    border-radius: 2rem;
+    width: 15vw;
+}
+footer{
+    background-color: rgba(220, 220, 220, 0.642);
+    box-shadow: 2px 2px 5px gray;
+}
+.foot a{
+    color: black;
+    text-decoration: none;
+    font-size: 1rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: capitalize;
+}
+.foot i{
+    color:rgb(97, 192, 159) ;
+    font-weight: 20px;
+    margin-top: 1rem;
+}
+.fot{
+    border: 2px solid gainsboro;
+    box-shadow: 2px 3px 5px gainsboro;
+    background-color: gainsboro;
+}
+.fot i{
+    color:black ;
+    font-weight:6rem;
+}
+.fot a{
+    color: black;
+    text-decoration: none;
+    font-size: 1rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: capitalize;
+}
